@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="bird_park" size="1500.000000 843.750000" />
+    <ImageTarget name="smb2" size="1500.000000 1125.000000" />
+    <ImageTarget name="kemarau" size="1500.000000 1125.000000" />
+    <ImageTarget name="ikan" size="1500.000000 1185.937500" />
+    <ImageTarget name="gelorasriwijaya" size="1500.000000 1125.000000" />
+    <ImageTarget name="monpera" size="1500.000000 1125.000000" />
+    <ImageTarget name="kipark" size="1500.000000 957.857117" />
+    <ImageTarget name="balaputradewa" size="1500.000000 1125.000000" />
+    <ImageTarget name="ampera" size="1500.000000 1125.000000" />
+    <ImageTarget name="chengho" size="1500.000000 1125.000000" />
+  </Tracking>
+</QCARConfig>
