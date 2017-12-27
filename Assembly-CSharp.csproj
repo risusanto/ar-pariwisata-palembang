@@ -55,11 +55,10 @@
      <Compile Include="Assets\Scripts\BeritaController.cs" />
      <Compile Include="Assets\Scripts\beritaHandler.cs" />
      <Compile Include="Assets\Scripts\buttonHandler.cs" />
+     <Compile Include="Assets\Scripts\headerObjWisata.cs" />
      <Compile Include="Assets\Scripts\headlineBerita.cs" />
      <Compile Include="Assets\Scripts\isiBerita.cs" />
-     <Compile Include="Assets\Scripts\objekWisataHandler.cs" />
      <Compile Include="Assets\Scripts\wisataController.cs" />
-     <Compile Include="Assets\Scripts\wisataHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />

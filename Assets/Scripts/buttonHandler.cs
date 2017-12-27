@@ -81,7 +81,7 @@ public class buttonHandler : MonoBehaviour {
 
     public void wisataSejarah()
     {
-        SceneManager.LoadScene("Wisatasejarah");
+        SceneManager.LoadScene("wisataSejarah");
     }
 
     public void loadCobaAR()

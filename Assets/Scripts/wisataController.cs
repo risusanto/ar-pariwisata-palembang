@@ -11,22 +11,37 @@ public class wisataController : MonoBehaviour {
     public GameObject wisataPrefab;
     public GameObject[] navBtn = new GameObject[2];
     public string url;
+    public static wisataController instance;
+    public GameObject detail;
 
     private List<GameObject> panel = new List<GameObject>();
     private string jsonString;
     private bool isLoaded;
+    public bool showDetail;
+
+    void Awake()
+    {
+        if (instance == null)
+            instance = this;
+        else if (instance != this)
+            Destroy(gameObject);
+    }
 
     // Use this for initialization
     void Start () {
         panelIdx = 0;
         jsonString = null;
         isLoaded = false;
+        showDetail = false;
         panel.Add(Instantiate(panelPrefab, canvas.transform));
         StartCoroutine(DownloadTest(url));
 	}
 	
 	// Update is called once per frame
 	void Update () {
+        detail.SetActive(showDetail);
+        if(showDetail == true)
+            detail.transform.SetAsLastSibling();
         if (panelIdx == 0)
             navBtn[0].SetActive(false);
         else
@@ -94,11 +109,17 @@ public class wisataController : MonoBehaviour {
             newJudul = wisataPrefab.GetComponentsInChildren<Text>(true);
             newJudul[0].text = jsonVal[i]["nama_objek_wisata"].ToString();
             newJudul[2].text = jsonVal[i]["lokasi_objek_wisata"].ToString();
+            newJudul[3].text = jsonVal[i]["id_objek_wisata"].ToString();
             Instantiate(wisataPrefab, panel[curPanel].transform);
             //if (curPanel != 0)
             //    panel[curPanel].SetActive(false);
             objPerPanel++;
         }
 
+    }
+
+    public void tutupDetail()
+    {
+        showDetail = false;
     }
 }
