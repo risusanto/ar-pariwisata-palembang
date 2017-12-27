@@ -71,17 +71,17 @@ public class buttonHandler : MonoBehaviour {
 
     public void wisataAlam()
     {
-        SceneManager.LoadScene("alam");
+        SceneManager.LoadScene("wisataAlam");
     }
 
     public void wisataBuatan()
     {
-        SceneManager.LoadScene("buatan");
+        SceneManager.LoadScene("wisataBuatan");
     }
 
     public void wisataSejarah()
     {
-        SceneManager.LoadScene("sejarah-budaya");
+        SceneManager.LoadScene("Wisatasejarah");
     }
 
     public void loadCobaAR()
