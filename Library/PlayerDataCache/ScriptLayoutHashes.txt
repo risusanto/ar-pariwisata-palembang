@@ -135,6 +135,7 @@ a76f8b6a8726b6377fae56a8e4061cd3 Assembly-CSharp.dll:.headlineBerita
 3641dc6cb7ca05884de04800b3bbe29d Assembly-CSharp.dll:.beritaHandler
 387ef655a40a5a09b4b289e4961f5583 Assembly-CSharp.dll:Vuforia.CylinderTargetBehaviour
 67b48974ce9eba2f5f42615d194258b7 Assembly-CSharp.dll:Vuforia.MaskOutBehaviour
+c8eeb8af6cf73ace3652fbec6bf34336 Assembly-CSharp.dll:.headerObjWisata
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -167,6 +168,5 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ArScene
 bca9a761a8ec97c963ea1ef47a3f0754 Assembly-CSharp.dll:.BeritaController
 d2a2bd333db22f480a8589e167314ecc Assembly-CSharp.dll:Vuforia.UserDefinedTargetBuildingBehaviour
-32c713a873b5ab9e7da1470fe29c17d6 Assembly-CSharp.dll:.wisataController
+6bcb9bbdebfd0a0e6df2551de4eabf0f Assembly-CSharp.dll:.wisataController
 7cac06ac0eaa7257b831c29e4455ce1b Assembly-CSharp.dll:Vuforia.VuforiaConfiguration
-c8eeb8af6cf73ace3652fbec6bf34336 Assembly-CSharp.dll:.headerObjWisata

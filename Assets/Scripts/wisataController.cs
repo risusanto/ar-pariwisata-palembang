@@ -13,6 +13,7 @@ public class wisataController : MonoBehaviour {
     public string url;
     public static wisataController instance;
     public GameObject detail;
+    public string latLong;
 
     private List<GameObject> panel = new List<GameObject>();
     private string jsonString;
@@ -121,5 +122,11 @@ public class wisataController : MonoBehaviour {
     public void tutupDetail()
     {
         showDetail = false;
+    }
+
+    public void openMap()
+    {
+        Application.OpenURL("https://maps.google.com/maps?q=" + latLong);
+        Debug.Log("https://maps.google.com/maps?q=" + latLong);
     }
 }

@@ -17,6 +17,7 @@ public class headerObjWisata : MonoBehaviour {
     private bool detailLoaded;
     private bool isloaded;
     // Use this for initialization
+
     void Start () {
         jsonString = null;
         isloaded = false;
@@ -88,5 +89,6 @@ public class headerObjWisata : MonoBehaviour {
         objDetail = wisataController.instance.detail.GetComponentsInChildren<Text>(true);
         objDetail[0].text = jsonVal[0]["detail_objek_wisata"].ToString();
         objDetail[1].text = jsonVal[0]["nama_objek_wisata"].ToString();
+        wisataController.instance.latLong = jsonVal[0]["latlong_objek_wisata"].ToString();
     }
 }
