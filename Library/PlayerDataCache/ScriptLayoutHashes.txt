@@ -170,3 +170,4 @@ bca9a761a8ec97c963ea1ef47a3f0754 Assembly-CSharp.dll:.BeritaController
 d2a2bd333db22f480a8589e167314ecc Assembly-CSharp.dll:Vuforia.UserDefinedTargetBuildingBehaviour
 6bcb9bbdebfd0a0e6df2551de4eabf0f Assembly-CSharp.dll:.wisataController
 7cac06ac0eaa7257b831c29e4455ce1b Assembly-CSharp.dll:Vuforia.VuforiaConfiguration
+c3965024b6cf8c776ddda9eaf3fe45ad Assembly-CSharp.dll:.ArPositionController

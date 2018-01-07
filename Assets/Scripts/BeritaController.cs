@@ -16,7 +16,7 @@ public class BeritaController : MonoBehaviour {
     public bool isLoaded;
 
     Text[] newJudul;
-    string imageUrl = "52.187.131.133/assets/img/berita/";
+    string imageUrl = "52.187.131.133/assets/img/img_berita/";
     List<Sprite> beritaSprites = new List<Sprite>();
     bool imgLoaded;
 

@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\ArPositionController.cs" />
      <Compile Include="Assets\Scripts\ArScene.cs" />
      <Compile Include="Assets\Scripts\BeritaController.cs" />
      <Compile Include="Assets\Scripts\beritaHandler.cs" />
