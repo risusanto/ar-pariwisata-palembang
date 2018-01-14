@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\ArScene.cs" />
      <Compile Include="Assets\Scripts\BeritaController.cs" />
      <Compile Include="Assets\Scripts\beritaHandler.cs" />
+     <Compile Include="Assets\Scripts\bestViewController.cs" />
      <Compile Include="Assets\Scripts\buttonHandler.cs" />
      <Compile Include="Assets\Scripts\headerObjWisata.cs" />
      <Compile Include="Assets\Scripts\headlineBerita.cs" />

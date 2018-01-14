@@ -13,4 +13,9 @@ public class ArScene : MonoBehaviour {
     {
         SceneManager.LoadScene("percobaan_1");
     }
+
+    public void bestView()
+    {
+        SceneManager.LoadScene("BestView");
+    }
 }
